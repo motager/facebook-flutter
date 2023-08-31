@@ -89,7 +89,7 @@ class FacebookApp extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: "myfont",
                       fontSize: 30.0,
-                      fontWeight: FontWeight.bold,
+                      fontWeight: FontWeight.w100,
                     ),
                   ),
                 ),
