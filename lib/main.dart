@@ -107,7 +107,7 @@ class FacebookApp extends StatelessWidget {
                     ),
                       Title(
                         color: Colors.black,
-                         child: Text(
+                         child: const Text(
                           "bmw gtr",
                           style: TextStyle(
                              fontFamily: "myfont",
