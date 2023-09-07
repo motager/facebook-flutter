@@ -117,10 +117,7 @@ class FacebookApp extends StatelessWidget {
                           ),
                           ),
                         Image.asset(
-                          "assets/img/image 1.jfif", 
-                        ),
-                        Image.asset(
-                              " assets/img/image 3.jfif"
+                          "assets/images/bm1.jpg", 
                         ),
                   ],
                 ),
