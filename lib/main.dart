@@ -32,14 +32,17 @@ class FacebookApp extends StatelessWidget {
           elevation: 45.0,
           centerTitle: true,
           // ignore: prefer_const_constructors
-          title: Text(
-            "Facebook",
-
+          title: Center(
             // ignore: prefer_const_constructors
-            style: TextStyle(
-              fontSize: 26.0,
-              fontWeight: FontWeight.bold,
-              color: Colors.blueAccent,
+            child: Text(
+              "facebook",
+          
+              // ignore: prefer_const_constructors
+              style: TextStyle(
+                fontSize: 26.0,
+                fontWeight: FontWeight.bold,
+                color: Colors.blueAccent,
+              ),
             ),
           ),
 
@@ -89,7 +92,7 @@ class FacebookApp extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: "myfont",
                       fontSize: 30.0,
-                      fontWeight: FontWeight.w100,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
@@ -98,26 +101,23 @@ class FacebookApp extends StatelessWidget {
                 borderRadius:const BorderRadius.all(Radius.elliptical(100, 50)),
                 child: Column(
                   children: [
-                    Image.asset(
-                     "assets/img/image 2.jfif",
+                   
                     
-                    ),
-                    Image.asset(
-                      "assets/img/p1.jfif",
-                    ),
-                      Title(
-                        color: Colors.black,
-                         child: const Text(
-                          "bmw gtr",
-                          style: TextStyle(
-                             fontFamily: "myfont",
-                      fontSize: 30.0,
-                      fontWeight: FontWeight.bold,
-                          ),
-                          ),
-                          ),
+                      Center(
+                        child: Title(
+                          color: Colors.black,
+                           child: const Text(
+                            "bmw gtr",
+                            style: TextStyle(
+                              fontFamily: "my font",
+                        fontSize: 30.0,
+                        fontWeight: FontWeight.bold,
+                            ),
+                            ),
+                            ),
+                      ),
                         Image.asset(
-                          "assets/images/bm1.jpg", 
+                          "assets/images/bm1.jpg",
                         ),
                   ],
                 ),
