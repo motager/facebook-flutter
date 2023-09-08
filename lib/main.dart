@@ -52,7 +52,7 @@ class FacebookApp extends StatelessWidget {
             icon: Icon(Icons.menu),
             iconSize: 25,
             color: Colors.blueAccent,
-            padding: const EdgeInsets.all(10.0),
+          
           ),
           actions: [
             IconButton(
@@ -61,7 +61,7 @@ class FacebookApp extends StatelessWidget {
               icon: Icon(Icons.search),
               iconSize: 25,
               color: Colors.blueAccent,
-              padding: const EdgeInsets.all(10.0),
+             
             ),
             IconButton(
               onPressed: () {},
@@ -69,7 +69,7 @@ class FacebookApp extends StatelessWidget {
               icon: Icon(Icons.notifications),
               iconSize: 25,
               color: Colors.blueAccent,
-              padding: const EdgeInsets.all(0.0),
+           
             ),
             IconButton(
               onPressed: () {},
@@ -103,22 +103,29 @@ class FacebookApp extends StatelessWidget {
                   children: [
                    
                     
+                        Image.asset(
+                          "assets/images/bm2.jfif",
+                        ),
+                          Image.asset(
+                          "assets/images/bm1.jpg",
+                        ),
+                        
                       Center(
                         child: Title(
                           color: Colors.black,
                            child: const Text(
-                            "bmw gtr",
+                            "BMW",textAlign: TextAlign.center,
                             style: TextStyle(
-                              fontFamily: "my font",
+                              fontFamily: "myfont",
                         fontSize: 30.0,
                         fontWeight: FontWeight.bold,
+                        
                             ),
                             ),
+                            
                             ),
+                            
                       ),
-                        Image.asset(
-                          "assets/images/bm1.jpg",
-                        ),
                   ],
                 ),
               
