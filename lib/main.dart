@@ -109,9 +109,7 @@ class FacebookApp extends StatelessWidget {
                           Image.asset(
                           "assets/images/bm1.jpg",
                         ),
-                        
-                  Image.network("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.scania.com%2Fcontent%2Fwww%2Fgroup%2Fen%2Fhome%2F_jcr_content%2Froot%2Fresponsivegrid%2Fresponsivegrid_19653%2Fresponsivegrid_19237%2Fresponsivegrid_13194%2Fresponsivegrid%2Fimage.coreimg.90.992.jpeg%2F1688717759574.jpeg&tbnid=rpK1__YUykMmOM&vet=12ahUKEwigse_z0KWBAxWcmicCHd13AcgQMygBegQIARB2..i&imgrefurl=https%3A%2F%2Fwww.scania.com%2F&docid=DR5lC4I6r-1EwM&w=992&h=992&q=scania&ved=2ahUKEwigse_z0KWBAxWcmicCHd13AcgQMygBegQIARB2")
-                   
+                
                   ],
                 ),
               
