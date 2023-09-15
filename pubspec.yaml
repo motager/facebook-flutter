@@ -63,6 +63,10 @@ flutter:
   assets:
     - assets/images/bm2.jpg
     - assets/images/bm1.jpg
+    - assets/img/icons8-facebook.SVG
+    - assets/img/icons8-instagram.SVG
+    - assets/img/icons8-twitter.SVG
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -80,7 +84,7 @@ flutter:
     - family: myfont
       fonts:
 
-        - asset: assets/fonts/font1.ttf
+        - asset: assets/fonts/font3.ttf
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:

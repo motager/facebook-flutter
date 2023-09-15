@@ -1,4 +1,4 @@
-// ignore_for_file: file_names, sort_child_properties_last, duplicate_ignore
+// ignore_for_file: file_names, sort_child_properties_last, duplicate_ignore, avoid_unnecessary_containers
 
 
 
@@ -35,17 +35,14 @@ class FacebookApp extends StatelessWidget {
         elevation: 45.0,
         centerTitle: true,
         // ignore: prefer_const_constructors
-        title: Center(
-          // ignore: prefer_const_constructors
-          child: Text(
-            "facebook",
+        title: Text(
+          "Facebook",
 
-            // ignore: prefer_const_constructors
-            style: TextStyle(
-              fontSize: 26.0,
-              fontWeight: FontWeight.bold,
-              color: Colors.blueAccent,
-            ),
+          // ignore: prefer_const_constructors
+          style: TextStyle(
+            fontSize: 26.0,
+            fontWeight: FontWeight.bold,
+            color: Colors.blueAccent,
           ),
         ),
 
@@ -53,7 +50,7 @@ class FacebookApp extends StatelessWidget {
           onPressed: () {},
           // ignore: prefer_const_constructors
           icon: Icon(Icons.menu),
-          iconSize: 25,
+          iconSize: 30,
           color: Colors.blueAccent,
         ),
         actions: [
@@ -61,44 +58,189 @@ class FacebookApp extends StatelessWidget {
             onPressed: () {},
             // ignore: prefer_const_constructors
             icon: Icon(Icons.search),
-            iconSize: 25,
+            iconSize: 30,
             color: Colors.blueAccent,
           ),
           IconButton(
             onPressed: () {},
             // ignore: prefer_const_constructors
             icon: Icon(Icons.notifications),
-            iconSize: 25,
+            iconSize: 30,
             color: Colors.blueAccent,
           ),
           IconButton(
             onPressed: () {},
             // ignore: prefer_const_constructors
             icon: Icon(Icons.message),
-            iconSize: 25,
+            iconSize: 30,
             color: Colors.blueAccent,
           ),
         ],
       ),
-      body: SingleChildScrollView(
-        scrollDirection: Axis.vertical,
+     
+     
+     
+     
+      body: Container( 
+        height: double.infinity,
+        width: double.infinity,
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        
           children: [
             Center(
-              child: Title(
-                color: Colors.green,
-                child: const Text(
-                  "Facebook",
-                  style: TextStyle(
-                    fontFamily: "myfont",
-                    fontSize: 30.0,
-                    fontWeight: FontWeight.bold,
+              child: Container(
+                child: Title(
+                  color: Colors.green,
+                  child: const Text(
+                    "Facebook",
+                    style: TextStyle(
+                      fontFamily: "myfont",
+                      fontSize: 30.0,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
-                ),
+                  
                 
+                ),
+                margin: const EdgeInsets.only(top: 10),
+              
               ),
             ),
-      SvgPicture.asset("assets/img/facebook.svg"),
+      Center(
+        child:   Container(
+        margin: EdgeInsets.only(bottom: 20),
+          child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              
+          children: [
+          
+          
+          
+             Container(
+          
+               child: SvgPicture.asset(
+          
+          "assets/img/icons8-facebook.SVG",
+          
+          // ignore: deprecated_member_use
+          
+          color: Colors.blue,
+          
+          width: 40.0,
+          
+          
+          
+               ),
+          
+               
+          
+               decoration: BoxDecoration(
+          
+          border: Border.all(
+          
+            color: Colors.blue,
+          
+          
+          
+          ),
+          
+          shape: BoxShape.circle
+          
+               ),
+          
+             ),
+          
+                SizedBox( 
+             
+                 width: 17.2 ,
+                ),
+          
+          
+          
+             Container(
+          
+               child: SvgPicture.asset(
+          
+                "assets/img/icons8-instagram.SVG",
+          
+                // ignore: deprecated_member_use
+          
+               
+                color: Colors.blue,
+          
+                width: 40.0,
+          
+                
+          
+               ),
+          
+              //  margin: const EdgeInsets.fromLTRB(20, 0.0, 20, 0),
+          
+               decoration: BoxDecoration(
+          
+                border: Border.all(
+          
+                  color: Colors.blue,
+          
+          
+          
+                ),
+          
+                shape: BoxShape.circle
+          
+               ),
+          
+             ),
+          
+            SizedBox(
+              
+           width: 17.2 ,
+          ),
+          
+          
+          Container(
+          
+               child: SvgPicture.asset(
+          
+                "assets/img/icons8-twitter.SVG",
+          
+                // ignore: deprecated_member_use
+          
+                // color: Colors.black,
+          
+                width: 40.0,
+          
+                
+          
+               ),
+          
+              //  margin: const EdgeInsets.fromLTRB(20, 0.0, 20, 0),
+          
+               decoration: BoxDecoration(
+          
+                border: Border.all(
+          
+                  // color: Colors.blue,
+          
+          
+          
+                ),
+          
+                shape: BoxShape.circle
+          
+               ),
+          
+             ), 
+          
+          ],
+          
+          
+          
+          ),
+        ),
+      )
+          
       
           ],
         ),
