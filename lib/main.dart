@@ -81,7 +81,7 @@ class FacebookApp extends StatelessWidget {
      
      
      
-      body: Container( 
+      body: SizedBox( 
         height: double.infinity,
         width: double.infinity,
         child: Column(
@@ -109,7 +109,7 @@ class FacebookApp extends StatelessWidget {
             ),
       Center(
         child:   Container(
-        margin: EdgeInsets.only(bottom: 20),
+        margin: const EdgeInsets.only(bottom: 20),
           child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               
@@ -125,6 +125,7 @@ class FacebookApp extends StatelessWidget {
           
           // ignore: deprecated_member_use
           
+          // ignore: deprecated_member_use
           color: Colors.blue,
           
           width: 40.0,
@@ -151,7 +152,7 @@ class FacebookApp extends StatelessWidget {
           
              ),
           
-                SizedBox( 
+                const SizedBox( 
              
                  width: 17.2 ,
                 ),
@@ -167,6 +168,7 @@ class FacebookApp extends StatelessWidget {
                 // ignore: deprecated_member_use
           
                
+                // ignore: deprecated_member_use
                 color: Colors.blue,
           
                 width: 40.0,
@@ -193,7 +195,7 @@ class FacebookApp extends StatelessWidget {
           
              ),
           
-            SizedBox(
+            const SizedBox(
               
            width: 17.2 ,
           ),
